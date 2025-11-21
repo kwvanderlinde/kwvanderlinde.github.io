@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: RPTools
-icon: assets/img/rptools_icon.png
+icon: /assets/img/logos/RPTools_Logo_512.png
 #email: kwvanderlinde@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Just me fooling around.
@@ -40,6 +40,7 @@ minima:
     - { platform: discord, url: "https://rptools.net/discord", icon: discord }
     - { platform: twitter, url: "https://x.com/rptools", icon: twitter }
     - { platform: facebook, url: "https://facebook.com/RPTools", icon: facebook }
+    - { platform: reddit, url: "https://www.reddit.com/r/MapTool/", icon: reddit }
     - { platform: github, url: "https://github.com/RPTools", icon: github }
 
 # Build settings
