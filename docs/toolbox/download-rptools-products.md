@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download
-permalink: /tools/download-rptools-products/
+permalink: /toolbox/download-rptools-products/
 ---
 
 # Download

@@ -32,7 +32,7 @@ minima:
   nav_pages:
     - index.md
     - dev-blog.md
-    - tools.md
+    - toolbox.md
     - community.md
     - tutorials.md
     - about.md

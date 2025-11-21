@@ -1,7 +1,7 @@
 ---
 layout: page
 title: TokenTool
-permalink: /tools/tokentool/
+permalink: /toolbox/token-tool/
 ---
 
 # TokenTool

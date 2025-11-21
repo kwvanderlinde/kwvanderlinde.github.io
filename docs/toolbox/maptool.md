@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MapTool
-permalink: /tools/maptool/
+permalink: /toolbox/maptool/
 ---
 
 <section markdown="1">
@@ -22,7 +22,11 @@ Visit the [Download](/tools/download/) page for version information.
 ## You are in control
 
 It’s not browser-based so you have to download and install it, but because of that, it doesn’t depend on a remote server. That means you’re not dependent on other servers that might charge you a subscription fee or have inconvenient “maintenance windows”, you can use your own high resolution images, and you’re not restricted in storage size (except for the amount of available disk space you have!).
+
+<img src="/assets/img/NoFees.webp">
+
 </section>
+
 ***
 
 <section markdown="1">
@@ -47,6 +51,13 @@ It’s not browser-based so you have to download and install it, but because of 
 - Join our [Discord] or our [forums] and get all your questions answered.
 - Learn even more on our [Wiki Documentation][wiki].
 
+</section>
+
+***
+
+<section markdown="1">
+MapTool will always be free and always be supported by people that love to game.
+So don’t worry: fire up the tool, draw a map, and call your friends. It’s game time!
 </section>
 
 {% include md-links.md %}
