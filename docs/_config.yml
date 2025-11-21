@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: RPTools
+title: RPTools.net
 icon: /assets/img/logos/RPTools_Logo_512.png
 #email: kwvanderlinde@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
