@@ -35,7 +35,7 @@ minima:
     - toolbox.md
     - community.md
     - tutorials.md
-    - about.md
+    - about-us.md
   social_links:
     - { platform: discord, url: "https://rptools.net/discord", icon: discord }
     - { platform: twitter, url: "https://x.com/rptools", icon: twitter }
