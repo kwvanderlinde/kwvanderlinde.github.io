@@ -4,3 +4,4 @@
 [download]: </toolbox/download-rptools-products/>
 [facebook]: <https://www.facebook.com/RPTools>
 [reddit]: <https://www.reddit.com/r/MapTool/>
+[github]: <https://github.com/RPTools>
