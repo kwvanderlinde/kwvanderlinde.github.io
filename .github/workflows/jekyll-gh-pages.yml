@@ -37,6 +37,8 @@ jobs:
           route: GET /repos/{owner}/{repo}/releases/latest
           owner: RPTools
           repo: maptool
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: "echo latest release: '${{ steps.maptool_release.outputs.data }}'"
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
