@@ -45,7 +45,7 @@ jobs:
           ${{ steps.maptool_release.outputs.data }}
           EOF
           )
-          echo "$json" | jq '{version: .tag_name, url: .html_url, windows: {exe: (first(.assets[] | select(.name | endswith(".exe")).browser_download_url) // null), msi: (first(.assets[] | select(.name | endswith(".msi")).browser_download_url) // null)}, mac: {dmg: (first(.assets[] | select(.name | endswith(".dmg")).browser_download_url) // null), pkg: (first(.assets[] | select(.name | endswith(".pkg")).browser_download_url) // null)}, linux: {deb: (first(.assets[] | select(.name | endswith(".rpm")).browser_download_url) // null), rpm: (first(.assets[] | select(.name | endswith(".rpm")).browser_download_url) // null) }}'
+          echo "$json" | jq '{version: .tag_name, url: .html_url, assets: .assets | map({ type: .name | split(".") | last, url: .browser_download_url }) | map(select(.type != "zip")) | map({(.type): .url}) | add | {windows: {exe: .exe, msi: .msi}, mac: {dmg: .dmg, pkg: .pkg}, linux: {deb: .deb, rpm: .rpm}}}'
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
