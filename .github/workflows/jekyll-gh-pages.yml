@@ -30,6 +30,14 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Retrieve versions
+        uses: octokit/request-action@v2.x
+        id: maptool_release
+        with:
+          route: GET /repos/{owner}/{repo}/releases/latest
+          owner: RPTools
+          repo: maptool
+      - run: "echo latest release: '${{ steps.maptool_release.outputs.data }}'"
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
