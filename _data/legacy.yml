@@ -1,0 +1,14 @@
+charactertool:
+  version: 1.0.b15
+  url: https://web.archive.org/web/20190517185540/https://download.rptools.net/zip/chartool-1.0.b15.zip
+  legacy: true
+
+dicetool:
+  version: 1.0.b34
+  url: https://web.archive.org/web/20190517185540/https://download.rptools.net/zip/dicetool-1.0.b34.zip
+  legacy: true
+
+initiativetool:
+  version: 1.1.b9
+  url: https://web.archive.org/web/20190517185540/https://download.rptools.net/zip/initiativetool-1.1.b9.zip
+  legacy: true

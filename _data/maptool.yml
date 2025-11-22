@@ -1,0 +1,13 @@
+maptool:
+  version: 0.0.0
+  url: https://github.com/RPTools/maptool/releases/tag/0.0.0
+  assets:
+    windows:
+      exe: https://github.com/RPTools/maptool/releases/download/0.0.0/MapTool-0.0.0.exe
+      msi: https://github.com/RPTools/maptool/releases/download/0.0.0/MapTool-0.0.0.msi
+    mac:
+      dmg: https://github.com/RPTools/maptool/releases/download/0.0.0/MapTool-0.0.0.dmg
+      pkg: https://github.com/RPTools/maptool/releases/download/0.0.0/MapTool-0.0.0.pkg
+    linux:
+      deb: https://github.com/RPTools/maptool/releases/download/0.0.0/maptool_0.0.0-amd64.deb
+      rpm: https://github.com/RPTools/maptool/releases/download/0.0.0/maptool-0.0.0-x86_64.rpm

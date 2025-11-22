@@ -1,0 +1,13 @@
+tokentool:
+  version: 0.0.0
+  url: https://github.com/RPTools/TokenTool/releases/tag/0.0.0
+  assets:
+    windows:
+      exe: https://github.com/RPTools/TokenTool/releases/download/0.0.0/TokenTool-0.0.0.exe
+      msi: https://github.com/RPTools/TokenTool/releases/download/0.0.0/TokenTool-0.0.0.msi
+    mac:
+      dmg: https://github.com/RPTools/TokenTool/releases/download/0.0.0/TokenTool-0.0.0.dmg
+      pkg: https://github.com/RPTools/TokenTool/releases/download/0.0.0/TokenTool-0.0.0.pkg
+    linux:
+      deb: https://github.com/RPTools/TokenTool/releases/download/0.0.0/tokentool_0.0.0_amd64.deb
+      rpm: https://github.com/RPTools/TokenTool/releases/download/0.0.0/tokentool-0.0.0_x86_64.rpm
