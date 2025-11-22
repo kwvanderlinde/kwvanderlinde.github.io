@@ -45,6 +45,7 @@ jobs:
           ${{ steps.maptool_release.outputs.data }}
           EOF
           )
+          echo "$json"
           echo "$json" | jq '{version: .tag_name, url: .html_url, windows: {exe: (first(.assets[] | select(.name | test("\\\\.exe$")).browser_download_url) // null), msi: (first(.assets[] | select(.name | test("\\\\.msi$")).browser_download_url) // null)}, mac: {dmg: (first(.assets[] | select(.name | test("\\\\.dmg$")).browser_download_url) // null), pkg: (first(.assets[] | select(.name | test("\\\\.pkg$")).browser_download_url) // null)}, linux: {deb: (first(.assets[] | select(.name | test("\\\\.rpm$")).browser_download_url) // null), rpm: (first(.assets[] | select(.name | test("\\\\.rpm$")).browser_download_url) // null) }}'
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
