@@ -40,7 +40,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
-          release_data="${{ steps.maptool_release.outputs.data }}"
+          release_data=$(echo '${{ steps.maptool_release.outputs.data }}')
           tag_name=$(echo "$release_data" | jq -r '.tag_name')
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
