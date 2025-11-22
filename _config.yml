@@ -21,6 +21,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+exclude:
+  - test.sh
+
 # Can't wait for the latest goodness to be released.
 remote_theme: "jekyll/minima@bf9ef98"
 plugins:
