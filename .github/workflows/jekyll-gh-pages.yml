@@ -39,7 +39,9 @@ jobs:
           repo: maptool
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: "echo latest release: '${{ steps.maptool_release.outputs.data }}'"
+      - run: |
+          "echo NEW_FILE=$(cat '${{ steps.maptool_release.outputs.data }}' | jq '{version: .tag_name, url: .html_url, windows: {exe: .assets[] | select(.name | test("exe$")).browser_download_url , msi: .assets[] | select(.name | test("msi$")).browser_download_url }, mac: {dmg: "", pkg: ""}, linux: {deb: "", rpm: ""}}')"
+          # "echo latest release: '${{ steps.maptool_release.outputs.data }}'"
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
