@@ -30,7 +30,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Retrieve versions
+      - name: Retrieve maptool versions
         uses: octokit/request-action@v2.x
         id: maptool_release
         with:
@@ -39,14 +39,29 @@ jobs:
           repo: maptool
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: |
+      - name: Retrieve tokentool versions
+        uses: octokit/request-action@v2.x
+        id: tokentool_release
+        with:
+          route: GET /repos/{owner}/{repo}/releases/latest
+          owner: RPTools
+          repo: tokentool
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Write release asset links
+        run: |
           json=$(
           cat <<'EOF'
           ${{ steps.maptool_release.outputs.data }}
           EOF
           )
           echo "$json" | jq '{version: .tag_name, url: .html_url, assets: .assets | map({ type: .name | split(".") | last, url: .browser_download_url }) | map(select(.type != "zip")) | map({(.type): .url}) | add | {windows: {exe: .exe, msi: .msi}, mac: {dmg: .dmg, pkg: .pkg}, linux: {deb: .deb, rpm: .rpm}}}' > _data/maptool.yml
-          cat _data/maptool.yml
+          json=$(
+          cat <<'EOF'
+          ${{ steps.tokentool_release.outputs.data }}
+          EOF
+          )
+          echo "$json" | jq '{version: .tag_name, url: .html_url, assets: .assets | map({ type: .name | split(".") | last, url: .browser_download_url }) | map(select(.type != "zip")) | map({(.type): .url}) | add | {windows: {exe: .exe, msi: .msi}, mac: {dmg: .dmg, pkg: .pkg}, linux: {deb: .deb, rpm: .rpm}}}' > _data/tokentool.yml
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
