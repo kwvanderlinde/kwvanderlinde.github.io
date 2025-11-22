@@ -43,6 +43,7 @@ jobs:
           json= <<'EOF'
           ${{ steps.maptool_release.outputs.data }}
           EOF
+          echo "$json"
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
