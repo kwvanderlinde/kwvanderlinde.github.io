@@ -7,6 +7,8 @@ title: Home
 permalink: /
 ---
 
+{{ site.github | inspect }}
+
 <section markdown="1">
 ## 100% Community Driven
 
