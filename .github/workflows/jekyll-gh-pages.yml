@@ -40,9 +40,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
-          json= <<'EOF'
+          json=$(
+          cat <<'EOF'
           ${{ steps.maptool_release.outputs.data }}
           EOF
+          )
           echo "$json"
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
