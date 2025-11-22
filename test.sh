@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-pushd docs
+#pushd docs
 bundle exec jekyll serve --open-url
-popd
+#popd
