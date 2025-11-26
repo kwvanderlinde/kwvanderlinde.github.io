@@ -1,0 +1,31 @@
+---
+layout: page
+title: Tools
+permalink: /toolbox/
+---
+
+
+<table>
+{%- for tool in site.toolbox -%}
+    <tr>
+        <td><img width="32" alt="{{ tool.title | escape }} logo" src="{{ tool.icon | escape }}"></td>
+        <td>
+            <div><a href="{{ tool.url | escape }}">{{ tool.title | escape }}</a></div>
+            <div>{{ tool.summary | escape }}</div>
+            <div>
+                {%- if tool.legacy -%}
+                Stabilized
+                {%- else -%}
+                Active
+                {%- endif -%}
+            </div>
+        </td>
+    </tr>
+{%- endfor -%}
+</table>
+
+<p>The tools fall into two categories.</p>
+<ul>
+<li>Active tools are still under development and support.</li>
+<li>Stabilized tools are no longer under active development or support. Some of their functionality has been moved into one of the active tools.</li>
+</ul>
