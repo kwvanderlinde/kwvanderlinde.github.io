@@ -44,7 +44,7 @@ minima:
     - index.html
   social_links:
     - { platform: discord, url: "https://rptools.net/discord", icon: discord }
-    - { platform: twitter, url: "https://x.com/rptools", icon: twitter }
+    - { platform: x, url: "https://x.com/rptools", icon: x-twitter }
     - { platform: facebook, url: "https://facebook.com/RPTools", icon: facebook }
     - { platform: reddit, url: "https://www.reddit.com/r/MapTool/", icon: reddit }
     - { platform: github, url: "https://github.com/RPTools", icon: github }
