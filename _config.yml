@@ -42,6 +42,7 @@ minima:
   show_excerpts: true
   nav_pages:
     - index.html
+    - dev-blog.html
     - toolbox.html
     - community.html
     - tutorials.html
