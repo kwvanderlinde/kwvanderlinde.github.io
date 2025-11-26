@@ -15,7 +15,7 @@ The interview below is from February, 2011 appearing on the Tales from the Savag
 [MapTool](https://www.rptools.net/index.php?page=maptool) is my weapon of choice for online games. It started as a virtual battle mat but grew into a fully
 configurable, game system agnostic, online table top with rich map making capabilities. With MapTool you can create custom properties and data for your
 characters and creatures within your gaming ‘verse, roll dice inside an integrated chat system, and track initiative. With the addition of
-[MTScript](https://lmwcs.com/rptools/wiki/Category:Macro) (MapTools scripting language), you can fully automate game mechanics within MapTool to share with your
+[MTScript](https://wiki.rptools.info/index.php/Category:Macro) (MapTools scripting language), you can fully automate game mechanics within MapTool to share with your
 friends across the Internet.
 
 MapTool is an open source Java project meaning the product is free and its source can be viewed and changed if desired. Since it’s written in Java it works on
@@ -71,7 +71,7 @@ options include Python (such as used by [OpenRPG](https://www.openrpg.com/)) but
 
 ### What current feature of MapTool do you enjoy the most?
 
-It would have to be the [vision blocking](https://lmwcs.com/rptools/wiki/Introduction_to_Vision_Blocking) ability. The GM can define walls and doors as “solid”
+It would have to be the [vision blocking](https://wiki.rptools.info/index.php/Introduction_to_Vision_Blocking) ability. The GM can define walls and doors as “solid”
 so that player tokens (what MapTool calls “minis” on the map) cannot see through them. Everything else they can see and MapTool automatically exposes the 
 fog-of-war. This is a huge benefit from the point of view of running a game as it removes a lot of the guesswork about what a player can or cannot see.
 
@@ -79,7 +79,7 @@ fog-of-war. This is a huge benefit from the point of view of running a game as i
 
 Macro writing. Macro performance. I guess just about anything related to macros. ;-) Don’t get me wrong — the scripting language of MapTool puts it head and
 shoulders above the competition (I’ve used some of the other VTTs and none have scripting as complete as MapTool’s). But I think it could be so much better. We
-have plans to replace [MTscript](https://lmwcs.com/rptools/wiki/Category:Macro) (what we call our scripting language) with [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+have plans to replace [MTscript](https://wiki.rptools.info/index.php/Category:Macro) (what we call our scripting language) with [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 in the 1.4 development cycle.
 
 ### What about the project convinced you to contribute to the project initially?

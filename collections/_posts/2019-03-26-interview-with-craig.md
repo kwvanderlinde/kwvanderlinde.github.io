@@ -18,8 +18,8 @@ We continue [Maptool Month](https://rptroll.blogspot.com/search/label/Maptool) i
 Wisniewski. Frameworks allow for the creation of custom settings, screens, and macros that automate game mechanics. I’ve created one such framework but there
 are [many, many others](https://forums.rptools.net/viewforum.php?f=33).
 
-Craig added the [HTML frame and dialog functions](https://lmwcs.com/rptools/wiki/frame_%28roll_option%29) allowing for the creation of custom windows using
-[HTML](https://en.wikipedia.org/wiki/HTML)/[CSS](https://en.wikipedia.org/wiki/CSS) with links and buttons that run [MTScript](https://lmwcs.com/rptools/wiki/Category:Macro)
+Craig added the [HTML frame and dialog functions](https://wiki.rptools.info/index.php/frame_%28roll_option%29) allowing for the creation of custom windows using
+[HTML](https://en.wikipedia.org/wiki/HTML)/[CSS](https://en.wikipedia.org/wiki/CSS) with links and buttons that run [MTScript](https://wiki.rptools.info/index.php/Category:Macro)
 macros. He also added the ability to update Token properties from within macros to automate game mechanics like hit point reduction due to a successful attack.
 Other biggies include trusted macros created by the GM and LIB: tokens which allow for the distribution of frameworks and other MTScript utilities. Basically,
 without Craig, I doubt we would have the frameworks you see in MapTool today.
@@ -60,7 +60,7 @@ pretty easy to get hooked on the vision and lighting thing.
 
 ### What current feature of MapTool do you enjoy the most?
 
-[Vision and Lighting](https://lmwcs.com/rptools/wiki/Introduction_to_Lights_and_Sights), it just makes things so much easier not having to expose parts of the
+[Vision and Lighting](https://wiki.rptools.info/index.php/Introduction_to_Lights_and_Sights), it just makes things so much easier not having to expose parts of the
 map manually when running the game.
 
 ### What in 1.3 do you find the most irritating?
