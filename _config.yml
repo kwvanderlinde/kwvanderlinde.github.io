@@ -43,6 +43,7 @@ minima:
   nav_pages:
     - index.html
     - community.html
+    - about-us.html
   social_links:
     - { platform: discord, url: "https://rptools.net/discord", icon: discord }
     - { platform: x, url: "https://x.com/rptools", icon: x-twitter }
