@@ -1,0 +1,11 @@
+---
+layout: page
+title: Tags
+---
+
+{%- for tag in site.topics -%}
+<div>
+    <a href="{{ tag.url | escape }}"><i class="fa-solid fa-tag"></i> {{ tag.title | escape }}</a>
+</div>
+{%- endfor -%}
+
