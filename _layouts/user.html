@@ -1,0 +1,29 @@
+---
+layout: base
+---
+<article class="post">
+  <header class="post-header">
+			<h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+	
+  <div class="post-content">
+			{{ content }}
+
+			{%- for post in site.posts -%}
+			{%- endfor -%}
+			{%- assign user_posts = site.posts -%}
+			<h2>Posts by {{ page.title | escape }}</h2>
+			{%- if user_posts.size == 0 -%}
+			<em>{{ page.title | escape }} has not made any posts yet.</em>
+			{%- else -%}
+			<ul class="post-list">
+					{%- for post in user_posts -%}
+						{%- if post.author contains page.slug -%}
+							{%- include listed-post.html post=post -%}
+						{%- endif -%}
+					{%- endfor -%}
+			</ul>
+			{%- endif -%}
+  </div>
+
+</article>

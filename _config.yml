@@ -59,3 +59,7 @@ defaults:
       image: true
 
 collections_dir: collections
+collections:
+  users:
+    output: true
+    permalink: /:collection/:title
