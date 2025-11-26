@@ -35,6 +35,53 @@ jobs:
           ruby-version: '3.2' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 1 # Increment this number if you need to re-download cached gems
+      - name: Retrieve maptool versions
+        uses: octokit/request-action@v2.x
+        id: maptool_release
+        with:
+          route: GET /repos/{owner}/{repo}/releases/latest
+          owner: RPTools
+          repo: maptool
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Retrieve tokentool versions
+        uses: octokit/request-action@v2.x
+        id: tokentool_release
+        with:
+          route: GET /repos/{owner}/{repo}/releases/latest
+          owner: RPTools
+          repo: tokentool
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Write release asset links
+        run: |
+          json=$(
+          cat <<'EOF'
+          ${{ steps.maptool_release.outputs.data }}
+          EOF
+          )
+          version=$(echo "$json" | jq -rc '.tag_name')
+          release_url=$(echo "$json" | jq -rc '.html_url')
+          release_date=$(echo "$json" | jq -rc '.published_at')
+          assets=$(echo "$json" | jq -c '.assets | map({ type: .name | split(".") | last, url: .browser_download_url }) | map(select(.type != "zip")) | map({(.type): .url}) | add | {windows: {exe: .exe, msi: .msi}, mac: {dmg: .dmg, pkg: .pkg}, linux: {deb: .deb, rpm: .rpm}}')
+          echo "$version"
+          echo "$release_url"
+          sed -i -e "/^version/cversion: $version" -e "/^release-page/crelease-page: $release_url" -e "/^release-date/crelease-date: $release_date" -e "/^assets/cassets: $assets" collections/_toolbox/maptool.html
+          cat collections/_toolbox/maptool.html
+          
+          json=$(
+          cat <<'EOF'
+          ${{ steps.tokentool_release.outputs.data }}
+          EOF
+          )
+          version=$(echo "$json" | jq -rc '.tag_name')
+          release_url=$(echo "$json" | jq -rc '.html_url')
+          release_date=$(echo "$json" | jq -rc '.published_at')
+          assets=$(echo "$json" | jq -c '.assets | map({ type: .name | split(".") | last, url: .browser_download_url }) | map(select(.type != "zip")) | map({(.type): .url}) | add | {windows: {exe: .exe, msi: .msi}, mac: {dmg: .dmg, pkg: .pkg}, linux: {deb: .deb, rpm: .rpm}}')
+          echo "$version"
+          echo "$release_url"
+          sed -i -e "/^version/cversion: $version" -e "/^release-page/crelease-page: $release_url" -e "/^release-date/crelease-date: $release_date" -e "/^assets/cassets: $assets" collections/_toolbox/token-tool.html
+          cat collections/_toolbox/token-tool.html
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
