@@ -1,0 +1,360 @@
+/* region */
+
+.post-icon {
+  height: 8em;
+  margin-top: 1em;
+}
+
+code {
+  background-color: #818b981f;
+  padding: 0.1em 0.5ch;
+}
+
+/* endregion */
+
+/* region Nice headers with multiple rows */
+
+.listed-post-header {
+  margin-block-end: 1em;
+}
+.listed-post-header {
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0 !important;
+  }
+}
+
+/* endregion */
+
+/* region Blog post listing */
+
+.post-list {
+  display: grid;
+  grid-template-columns: 5em 1fr;
+  grid-auto-rows: minmax(5em, auto);  /* Make it at least the same as the icon cell width. */
+  grid-gap: 2em 2ch;
+}
+.post-list__item {
+  display: contents; /* Make the children be on the grid. */
+}
+.post-list__item-icon {
+  grid-column: 1;
+  place-self: start stretch;
+  margin: 0.5em;
+}
+.post-list__item-summary {
+  grid-column: 2;
+  place-self: stretch stretch;
+  min-width: 0;
+  min-height: 0;
+}
+
+
+.article-meta {
+}
+.article-meta__date {
+}
+.article-meta__authors {
+}
+.article-meta__authors::before {
+  content: "•";
+  padding-inline: 0.5ch;
+}
+.article-meta__tags {
+}
+
+
+.article-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.article-preview__title {
+  display: block;
+  font-size: 1.5em;
+}
+.article-preview__meta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5ch;
+
+  font-size: 0.875em;
+}
+.article-preview__tags {
+  font-size: 0.875em;
+}
+.article-preview__excerpt {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* endregion */
+
+/* region General button format */
+
+.button-link-row {
+  margin: 10px 0;
+}
+
+.button {
+  text-decoration: none;
+
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  /*font-family: Arial, sans-serif;*/
+  text-align: center;
+
+  /* Hover effect for interactivity */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+.button:visited {
+  text-decoration: none;
+}
+.button:hover {
+  text-decoration: none;
+}
+.button:active {
+  text-decoration: none;
+}
+.button:focus {
+  text-decoration: none;
+}
+/* endregion */
+
+/* region Specific button types (color schemes, etc) */
+
+.button--download {
+  background-color: hsl(128, 53%, 50%);
+  color: white;
+
+  text-transform: uppercase;
+  padding: 0.625em 1.25em;
+}
+.button--download:visited { /* Render same as an unvisited link */
+  background-color: hsl(128, 53%, 50%);
+  color: white;
+}
+.button--download:hover {
+  background-color: hsl(128, 53%, 42%);
+  color: white;
+}
+.button--download:active {
+  background-color: hsl(128, 53%, 32%);;
+  color: white;
+}
+.button--download:focus {
+  color: white;
+}
+
+
+.button--tag {
+  background-color: #00bcff;
+  color: white;
+
+  text-transform: uppercase;
+  padding: 0.25em 1.25em;
+}
+.button--tag:visited { /* Render same as an unvisited link */
+  background-color: #00bcff;
+  color: white;
+}
+.button--tag:hover {
+  background-color: #00bcff;
+  color: white;
+}
+.button--tag:active {
+  background-color: #00bcff;
+  color: white;
+}
+.button--tag:focus {
+  color: white;
+}
+
+/* endregion */
+
+.tag-list {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  column-gap: 1ch;
+}
+.tag-list .button--tag {
+  font-size: 0.75em;
+}
+
+.tag {
+  background-color: #00bcff;
+  color: white;
+  text-decoration: none;
+  font-size: 0.625em;
+  text-transform: uppercase;
+
+  padding: 0.625em 1.25em;
+  border: none;
+  border-radius: 5px;
+  display: inline-block; /* Allows setting padding and margin correctly */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  /* Hover effect for interactivity */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+/* region Tabbed content */
+
+.tabbed-pane {
+	overflow-x: hidden; /* so we could easily hide the radio inputs */
+	margin: 32px 0;
+	padding-bottom: 16px;
+	// border-bottom: 1px solid #ccc;
+}
+.tabbed-pane [type="radio"] {
+	/* hiding the inputs */
+	display: none;
+}
+.tabbed-pane__tabs {
+	display: flex;
+	align-items: stretch;
+	list-style: none;
+  margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #ccc;
+}
+.tabbed-pane__tab > label {
+	display: block;
+	margin-bottom: -1px;
+	padding: 12px 15px;
+	border: 1px solid #ccc;
+	background: #eee;
+	color: #666;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.tabbed-pane__tab:hover label {
+	border-top-color: #333;
+	color: #333;
+}
+.tabbed-pane__tab-content {
+	display: none;
+	color: #777;
+  padding-top: 0.75em;
+  padding-left: 1ch;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+
+  header {
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+// The number of potential tabs is fixed by the following limit.
+@for $i from 1 through 10 {
+  .tabbed-pane [type="radio"]:nth-of-type(#{$i}):checked ~ .tabbed-pane__tabs .tabbed-pane__tab:nth-of-type(#{$i}) label {
+	  border-bottom-color: #fff;
+	  border-top-color: #B721FF;
+	  background: #fff;
+	  color: #222;
+  }
+
+  .tabbed-pane [type="radio"]:nth-of-type(#{$i}):checked ~ .tabbed-pane__tab-content:nth-of-type(#{$i}) {
+	  display: block;
+  }
+}
+/* endregion */
+
+/* region Testimonials and lists thereof */
+
+// Singular testimonials
+.testimonial {
+}
+.testimonial__author::before {
+  content: "— ";
+  font-weight: normal;
+}
+.testimonial__author {
+  font-weight: bold;
+  font-style: normal;
+}
+.testimonial__role::before {
+  content: ", ";
+}
+.testimonial__role {
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* endregion */
+
+/* region Sections styled as split panes with a very particular split */
+
+.split-pane {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0;
+  gap: 1em;
+  align-items: start;
+}
+.split-pane__part {
+  margin: 0;
+  flex-basis: 0;
+}
+.split-pane__part--2 {
+  margin: 0;
+  flex-basis: 0;
+  flex-grow: 2;
+}
+.split-pane__part--1 {
+  margin: 0;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.split-pane__part--large {
+  margin: 0;
+  flex-basis: 0;
+  flex-grow: 2;
+}
+.split-pane__part--small {
+  margin: 0;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+/* endregion */
+
+/* region For our long lists to useful community links */
+
+.community-links {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.community-links__item {
+}
+.community-links__item--dead {
+  text-decoration: line-through;
+}
+
+/* endregion */
+
+/* region For our long lists to contributors. */
+
+.contributor-list {
+  list-style-type: disc;
+}
+.contributor-list__contributor {
+}
+
+/* endregion */
