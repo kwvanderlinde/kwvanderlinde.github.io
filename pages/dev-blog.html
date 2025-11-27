@@ -1,10 +1,8 @@
 ---
-layout: page
+title: Dev Blog
 ---
 
 <div class="blog-listing">
-  {{ content }}
-
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
@@ -12,9 +10,7 @@ layout: page
   {% endif %}
 
   {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
+    <h2 class="post-list-heading">Latest posts</h2>
     <ul class="post-list">
 				{%- for post in posts -%}
 				{%- include listed-post.html post=post -%}
