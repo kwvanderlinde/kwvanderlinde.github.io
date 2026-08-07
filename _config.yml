@@ -16,11 +16,11 @@
 title: RPTools.net
 icon: /assets/img/logos/RPTools_Logo_512.png
 #email: kwvanderlinde@gmail.com
-#description: >- # this means to ignore newlines until "baseurl:"
-#  100% Free. 100% community driven.
+description: >-
+  100% free, community driven Role Playing Tools.
 repository: kwvanderlinde/kwvanderlinde.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://kwvanderlinde.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 exclude:
   - test.sh
