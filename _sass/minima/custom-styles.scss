@@ -108,6 +108,78 @@ figure figcaption {
   height: 100%;
 }
 
+/* region Informational banners */
+
+.alert {
+  border-style: solid;
+
+  /* top | right | bottom | left */
+  border-width: 1px 1px 1px 5px;
+  /* top-left | top-right | bottom-right | bottom-left */
+  border-radius: 5px 15px 15px 5px;
+
+  /* top-and-bottom | left-and-right */
+  padding: 0.25em 0.75em;
+
+  /* top | right | bottom | left */
+  margin: 1em auto 1em 0ch; /* Left-align the div and add some vertical space */
+
+  width: 100%;
+}
+
+.alert > p.alert-title {
+  margin-bottom: 0.25em;
+}
+.alert > p:first-child {
+  margin-top: 0em;
+}
+
+.alert > p:last-child {
+  margin-bottom: 0em;
+}
+
+.alert.alert--note {
+  background-color: rgb(9 105 218 / 5%);
+  border-color: rgb(9 105 218);
+}
+.alert.alert--note .alert-title {
+  color: rgb(9 105 218);
+}
+
+.alert.alert--tip {
+  background-color: rgb(26 127 55 / 5%);
+  border-color: rgb(26 127 55);
+}
+.alert.alert--tip .alert-title {
+  color: rgb(26 127 55);
+}
+
+.alert.alert--important {
+  background-color: rgb(130 80 223 / 5%);
+  border-color: rgb(130 80 223);
+}
+.alert.alert--important .alert-title {
+  color: rgb(130 80 223);
+}
+
+.alert.alert--warning {
+  background-color: rgba(154 103 0 / 5%);
+  border-color: rgb(154 103 0);
+}
+.alert.alert--warning .alert-title {
+  color: rgb(154 103 0);
+}
+
+.alert.alert--caution {
+  background-color: rgba(207 34 46 / 5%);
+  border-color: rgb(207 34 46);
+}
+.alert.alert--caution .alert-title {
+  color: rgb(207 34 46);
+}
+
+/* endregion */
+
 /* region Nice headers with multiple rows */
 
 .listed-post-header {
