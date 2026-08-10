@@ -4,6 +4,7 @@ title: "Blast from the Past: Interview with Azhrei"
 tags: interview
 author: bard
 icon: /assets/img/post-icons/Az.webp
+slug: blast-from-the-past-interview-with-azhrei
 ---
 
 Frank Edwards, aka Azhrei, is one of the RPTools staff who does the hero’s work website upkeep. He’s also heavily involved in the current GitHub automation and past build automation. Perhaps most importantly to the end-user community, he serves as the main review gate/sanity check for new code and concepts entering into RPTools products.

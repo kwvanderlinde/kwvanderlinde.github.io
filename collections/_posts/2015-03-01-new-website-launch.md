@@ -4,6 +4,7 @@ title: New Website Launch
 tags: general
 author: bard
 icon: /assets/img/logos/RPTools_Logo_512.png
+slug: new-website-lauch
 ---
 
 <div class="split-pane">

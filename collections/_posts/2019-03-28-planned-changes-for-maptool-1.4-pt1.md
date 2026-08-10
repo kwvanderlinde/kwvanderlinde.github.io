@@ -4,6 +4,7 @@ title: "Blast from the Past: Planned Changes for MapTool 1.4 pt1"
 tags: interview
 author: bard
 icon: /assets/img/post-icons/MT1.4.webp
+slug: blast-from-the-past-planned-changes-for-maptool-1-4-pt1
 ---
 
 This interview was done in 2011 at the end of MapTool 1.3 development. It’s a fun article to read again after all these years. We’ve accomplished a great deal

@@ -4,6 +4,7 @@ title: "Blast from the Past: Planned Changes for MapTool 1.4 pt2"
 tags: interview
 author: bard
 icon: /assets/img/post-icons/MT1.4.webp
+slug: blast-from-the-past-planned-changes-for-maptool-1-4-pt2
 ---
 
 This is part two of a 2011 interview done at the end of MapTool 1.3 development. It’s a fun article to read again after all these years. We’ve accomplished a great deal of the 1.4 plans but had to delay some of the hopes due to JavaFX becoming a technical football at Oracle. We hope things have settled down with Oracle giving JavaFX to the Open JDK group.

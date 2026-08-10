@@ -4,6 +4,7 @@ title: RPTools is the Millennium Falcon of RPG Software
 tags: general
 author: bard
 icon: /assets/img/Bandit1.webp
+slug: welcome
 ---
 
 <div class="split-pane">

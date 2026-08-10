@@ -4,6 +4,7 @@ title: Need Help? Discord Has Answers
 tags: general
 author: bard
 icon: /assets/img/logos/Discord-Symbol-Blurple.svg
+slug: need-help-discord-has-answers
 ---
 
 RPTools products are open source gaming products. Being open source, they’ve had multiple contributors throughout the years with documentation, forum posts, and tutorials provided by our ever-growing community. At times the sheer volume of information can be off-putting.

@@ -4,6 +4,7 @@ title: "Blast from the Past: Interview with RPTroll"
 tags: interview
 author: bard
 icon: /assets/img/post-icons/TrollBard.webp
+slug: blast-from-the-past-interview-with-rptroll
 ---
 
 R. K. Athey, aka RPTroll, is the RPTools Bard and a member of the RPTools Staff. As Bard, RPTroll manages the social media sites for RPTools as well as other marketing tasks, such as interviews. He’s also responsible for managing and providing content to the [rptools.net](rptools.net) site.

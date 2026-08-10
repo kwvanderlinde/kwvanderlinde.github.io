@@ -4,6 +4,7 @@ title: "Blast from the Past: Interview with Dorpond"
 tags: interview
 author: bard
 icon: /assets/img/post-icons/Dorpond.webp
+slug: blast-from-the-past-interview-with-dorpond
 ---
 
 Bill Hart, aka Dorpond, is a member of the RPTools staff who provides guidance and support for new features in MapTool. While not as active as he once was, he

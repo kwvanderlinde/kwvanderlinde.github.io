@@ -4,6 +4,7 @@ title: "Blast from the Past: Interview with Craig"
 tags: interview
 author: bard
 icon: /assets/img/post-icons/Craig.webp
+slug: blast-from-the-past-interview-with-craig
 ---
 
 Craig ‘no avatar’ Wisniewski is a current member of the RPTools staff and its lead developer. Craig writes most of the design documents we use behind the scenes

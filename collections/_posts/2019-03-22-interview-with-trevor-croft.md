@@ -4,6 +4,7 @@ title: "Blast from the Past: Interview with Trevor Croft"
 tags: interview
 author: bard
 icon: /assets/img/post-icons/Trevor.webp
+slug: blast-from-the-past-interview-with-trevor-croft
 ---
 
 Trevor Croft was the original developer for MapTool. He’s listed as Coder Emeritus in the credits and is one of the 3 founders of RPTools. Trevor left active
