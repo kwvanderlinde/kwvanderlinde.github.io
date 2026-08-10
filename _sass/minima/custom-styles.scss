@@ -67,6 +67,24 @@ code {
 
 /* endregion */
 
+.video-embed {
+  margin: 1em auto;
+  width: 560px;
+  height: 315px;
+
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.video-embed iframe {
+  postiion: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
 /* region Nice headers with multiple rows */
 
 .listed-post-header {
