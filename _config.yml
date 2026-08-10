@@ -81,8 +81,8 @@ collections:
     output: true
     permalink: /:collection/:title
     order:
-      - token-tool.html
       - maptool.html
+      - token-tool.html
       - character-tool.html
       - dice-tool.html
       - initiative-tool.html
