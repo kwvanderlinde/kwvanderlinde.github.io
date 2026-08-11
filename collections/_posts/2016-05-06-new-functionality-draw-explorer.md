@@ -21,7 +21,11 @@ All these functions make drawing in MapTool much easier while opening up excitin
 
 <div class="alert alert--note">Readers familiar with MapTool’s Drawing and Template Tools can skip to the next section.</div>
 
+<img class="post-example" src="/assets/img/draw-explorer-7.webp" alt="7">
+
 MapTool has two tools used for drawing: Drawing Tool and Template Tool. Users access both from the Tool Pallet (pictured above). Drawing Tool allows the creation of freehand drawings, lines, boxes, ellipses, and diamonds. GMs often use these tools to create maps. The map on the [“RPTools is the Millennium Falcon of RPG Software”](/2011/05/welcome/) page was created with these drawing tools and stamp objects. Template Tool has pre-defined templates – largely from DnD – for use during game play. The templates available follow the same rules as drawings, with the same tool pallet but their use is for spell and area-of-effect templates.
+
+<img class="post-example" src="/assets/img/draw-explorer-6.webp" alt="6">
 
 Both tools use the drawing pallet (pictured above). Users select the border fill color and width, opacity, layer, and whether or not to snap the drawing to the MapTool grid. Both border and fill can be a solid color or a texture from the MapTool Resource Library. An erase (Cut) function removes or modifies a drawing.  MapTool renders new drawings over old. The technical term for this Z-ordering, where newer items have a higher Z order than older ones.
 
