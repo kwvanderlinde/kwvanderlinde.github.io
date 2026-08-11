@@ -69,12 +69,12 @@ defaults:
     values:
       image: true
 
-# Pretty URLs for posts.
-# Default is /:categories/:year/:month/:day/:title:output_ext
-permalink: /:categories/:year/:month/:title/
-
 collections_dir: collections
 collections:
+  posts:
+    output: true
+    # Pretty URLs for posts without the day included
+    permalink: /:year/:month/:title/
   topics:  # tags
     output: true
     permalink: /:collection/:title
