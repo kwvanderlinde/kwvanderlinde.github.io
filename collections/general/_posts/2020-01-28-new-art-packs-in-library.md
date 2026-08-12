@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Art Packs in Library
-author: bard
+author: phergus
 slug: new-art-packs-in-library
 ---
 
