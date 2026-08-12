@@ -78,9 +78,9 @@ collections:
   topics:  # tags
     output: true
     permalink: /:collection/:title
-  users:
+  author:
     output: true
-    permalink: /:collection/:title
+    permalink: /:collection/:title/
   toolbox:
     output: true
     permalink: /:collection/:title/

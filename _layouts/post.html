@@ -23,7 +23,7 @@ layout: base
       <div class="{% unless page.modified_date %}force-inline {% endunless %}post-authors">
         {%- for author_slug in page.author %}
 					{%- capture author_cond -%}user.slug == '{{ author_slug }}'{%- endcapture -%}
-					{%- assign author = site.users | find_exp:"user", author_cond  -%}
+					{%- assign author = site.author | find_exp:"user", author_cond  -%}
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
 							<a href="{{ author.url }}" class="p-author h-card" itemprop="name"><i class="fa-solid fa-user"></i> {{ author.title }}</a>
 					</span>
