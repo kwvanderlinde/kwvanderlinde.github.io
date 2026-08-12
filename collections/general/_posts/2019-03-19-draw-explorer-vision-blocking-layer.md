@@ -35,7 +35,7 @@ The menu contains two options for adding/removing VBL: Path and Shape
 
 You currently cannot use either the Path or Shape to VBL for the Oval drawing type.
 
-You can download the RPTools’ Products from our [Download](/toolbox) page or our [DriveThruRPG publisher’s page](https://www.drivethrurpg.com/browse/pub/12049/RPTools?affiliate_id=401195). If you’re a coder you may also want to download the source from [GitHub](https://github.com/RPTools). While you’re in there, fork a branch and fix a bug. It’s the Open Source way.
+You can download the RPTools’ Products from our [Download](/toolbox/) page or our [DriveThruRPG publisher’s page](https://www.drivethrurpg.com/browse/pub/12049/RPTools?affiliate_id=401195). If you’re a coder you may also want to download the source from [GitHub](https://github.com/RPTools). While you’re in there, fork a branch and fix a bug. It’s the Open Source way.
 
 Excited about the new functionality? Let’s discuss in the comments below or on one of our many social outlets.
 

@@ -12,7 +12,7 @@ With the release of Maptool 1.5 comes a much-requested feature to the Draw Explo
 
 Being able to name drawings opens up functions that previously only applied to images. So now, with the aid of the [Maptool script language](https://wiki.rptools.info/index.php/Category:Draw_Function), you could hunt for all drawings with a specific name and move them to a different layer on the map, and in doing so perhaps hide them from player view.
 
-You can download the RPTools’ Products from our [Download](/toolbox) page or our [DriveThruRPG publisher’s page](https://www.drivethrurpg.com/browse/pub/12049/RPTools?affiliate_id=401195). If you’re a coder you may also want to download the source from [GitHub](https://github.com/RPTools). While you’re in there, fork a branch and fix a bug. It’s the Open Source way.
+You can download the RPTools’ Products from our [Download](/toolbox/) page or our [DriveThruRPG publisher’s page](https://www.drivethrurpg.com/browse/pub/12049/RPTools?affiliate_id=401195). If you’re a coder you may also want to download the source from [GitHub](https://github.com/RPTools). While you’re in there, fork a branch and fix a bug. It’s the Open Source way.
 
 Excited about the new functionality? Let’s discuss in the comments below or on one of our many social outlets.
 

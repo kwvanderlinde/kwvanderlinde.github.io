@@ -24,7 +24,7 @@ A few other notes about this panel.
 - The VBL Sensitivity determines what level of image transparency respected when generate the VBL for the token. The levels run from 1 to 255. The higher the number the more transparency is revealed.
 - Visibility Tolerance determines how much of the token is seen before the entire token is revealed. If you imagine the token divided into a 3×3 grid, the Visibility Tolerance is the number of those segments that must be visible to the observing token before the entire token is made visible.
 
-You can download the RPTools’ Products from our [Download](/toolbox) page or our [DriveThruRPG publisher’s page](https://www.drivethrurpg.com/browse/pub/12049/RPTools?affiliate_id=401195). If you’re a coder you may also want to download the source from [GitHub](https://github.com/RPTools). While you’re in there, fork a branch and fix a bug. It’s the Open Source way.
+You can download the RPTools’ Products from our [Download](/toolbox/) page or our [DriveThruRPG publisher’s page](https://www.drivethrurpg.com/browse/pub/12049/RPTools?affiliate_id=401195). If you’re a coder you may also want to download the source from [GitHub](https://github.com/RPTools). While you’re in there, fork a branch and fix a bug. It’s the Open Source way.
 
 Excited about the new functionality? Let’s discuss in the comments below or on one of our many social outlets.
 
