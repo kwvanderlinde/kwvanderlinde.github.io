@@ -75,9 +75,20 @@ collections:
     output: true
     # Pretty URLs for posts without the day included
     permalink: /:year/:month/:title/
-  topics:  # tags
+  tag:
     output: true
-    permalink: /:collection/:title
+    permalink: /:collection/:title/
+    order:
+      - blase-from-the-past
+  category:
+    output: true
+    permalink: /:collection/:title/
+    order:
+      - community.html
+      - devupdate.html
+      - general.html
+      - interview.html
+      - release.html
   author:
     output: true
     permalink: /:collection/:title/

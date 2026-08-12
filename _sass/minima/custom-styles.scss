@@ -219,6 +219,10 @@ figure figcaption {
 }
 .article-meta__tags {
 }
+.article-meta__categories::before {
+  content: "•";
+  padding-inline: 0.5ch;
+}
 
 
 .article-preview {
@@ -236,9 +240,6 @@ figure figcaption {
   align-items: center;
   gap: 0.5ch;
 
-  font-size: 0.875em;
-}
-.article-preview__tags {
   font-size: 0.875em;
 }
 .article-preview__excerpt {
