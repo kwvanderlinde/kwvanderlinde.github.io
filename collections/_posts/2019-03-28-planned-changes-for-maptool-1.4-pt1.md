@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blast from the Past: Planned Changes for MapTool 1.4 pt1"
-tags: interview
+tags: interview blast-from-the-past
 author: bard
 icon: /assets/img/post-icons/MT1.4.webp
 slug: blast-from-the-past-planned-changes-for-maptool-1-4-pt1

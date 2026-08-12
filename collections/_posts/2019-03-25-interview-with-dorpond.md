@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blast from the Past: Interview with Dorpond"
-tags: interview
+tags: interview blast-from-the-past
 author: bard
 icon: /assets/img/post-icons/Dorpond.webp
 slug: blast-from-the-past-interview-with-dorpond

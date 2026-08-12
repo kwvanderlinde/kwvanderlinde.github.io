@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blast from the Past: Interview with Craig"
-tags: interview
+tags: interview blast-from-the-past
 author: bard
 icon: /assets/img/post-icons/Craig.webp
 slug: blast-from-the-past-interview-with-craig

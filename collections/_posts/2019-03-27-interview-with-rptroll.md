@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blast from the Past: Interview with RPTroll"
-tags: interview
+tags: interview blast-from-the-past
 author: bard
 icon: /assets/img/post-icons/TrollBard.webp
 slug: blast-from-the-past-interview-with-rptroll
