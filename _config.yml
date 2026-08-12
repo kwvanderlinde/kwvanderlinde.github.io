@@ -82,7 +82,7 @@ collections:
       - blase-from-the-past
   category:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:path/
     order:
       - community.html
       - devupdate.html
