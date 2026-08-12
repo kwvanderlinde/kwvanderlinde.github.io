@@ -11,5 +11,5 @@ legacy: true
 assets: null
 ---
 
-<p><strong>CharacterTool</strong> helps players to manage their characters during gameplay. It is fully scripted so that the tediousness of tracking large
-numbers of stats can be automated.</p>
+**CharacterTool** helps players to manage their characters during gameplay. It is fully scripted so that the tediousness of tracking large
+numbers of stats can be automated.

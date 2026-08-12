@@ -10,6 +10,6 @@ summary: A general-purpose dice rolling application with programmable buttons an
 legacy: true
 ---
 
-<p>We came up with <strong>DiceTool</strong> while GMing. There were frequent multi-dice rolls and determining the result was slow sometimes.  We looked at and
+We came up with **DiceTool** while GMing. There were frequent multi-dice rolls and determining the result was slow sometimes.  We looked at and
 tried many of the fine dice rolling apps out there, but they all lacked features we wanted (such as saving complicated expressions for re-rolling) or had
-features we didn’t care for (such as the mechanic of picking up and throwing the dice using the mouse).</p>
+features we didn’t care for (such as the mechanic of picking up and throwing the dice using the mouse).
