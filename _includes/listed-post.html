@@ -26,7 +26,7 @@
 
 						{%- if post.categories.size > 0 -%}
 						<div class="article-meta__categories">
-								<i class="fa-regular fa-folder"></i>
+								<i class="article-meta__categories-icon fa-regular fa-folder"></i>
 								{%- for tag in post.categories -%}
 								{%- capture topic_cond -%}page.slug == '{{ tag }}'{%- endcapture -%}
 								{%- assign topic_page = site.category | find_exp:"page", topic_cond -%}

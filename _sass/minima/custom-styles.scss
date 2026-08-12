@@ -94,7 +94,11 @@ html {
 
 .post-icon {
   height: 8em;
-  margin-top: 1em;
+  margin: 1em 0;
+}
+
+.post-categories-icon {
+  margin-right: 1ch;
 }
 
 /* For images and such that should be displayed centered on their own. */
@@ -276,6 +280,9 @@ figure figcaption {
 .article-meta__categories::before {
   content: "•";
   padding-inline: 0.5ch;
+}
+.article-meta__categories-icon {
+  margin-right: 1ch;
 }
 
 
