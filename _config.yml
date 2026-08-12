@@ -83,7 +83,7 @@ collections:
     permalink: /:collection/:title
   toolbox:
     output: true
-    permalink: /:collection/:title
+    permalink: /:collection/:title/
     order:
       - maptool.html
       - token-tool.html
