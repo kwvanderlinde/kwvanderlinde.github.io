@@ -39,7 +39,7 @@ You can download the RPTools’ Products from our [Download](/toolbox) page or o
 
 Excited about the new functionality? Let’s discuss in the comments below or on one of our many social outlets.
 
-<!-- TODO Mid-page, colourful social media links -->
+{% include social-outlets.html %}
 
 You can download available versions of MapTool from [GitHub](https://github.com/RPTools/maptool/releases/latest).
 

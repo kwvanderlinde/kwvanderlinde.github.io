@@ -22,7 +22,7 @@ RPTools will survive but we need your help. If you’re a Java developer or some
 
 You can download the latest builds of TokenTool and MapTool below. Also feel free to wish them all well on one or our many social media outlets.
 
-<!-- TODO Mid-page, colourful social media links -->
+{% include social-outlets.html %}
 
 You can download available versions of MapTool from [GitHub](https://github.com/RPTools/maptool/releases/latest).
 

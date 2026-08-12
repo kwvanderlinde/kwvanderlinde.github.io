@@ -49,4 +49,4 @@ If you are a framework developer or web developer, please [download](https://git
 
 Excited about the new functionality? Let’s discuss in the comments below or on one of our many social outlets.
 
-<!-- TODO Mid-page, colourful social media links -->
+{% include social-outlets.html %}

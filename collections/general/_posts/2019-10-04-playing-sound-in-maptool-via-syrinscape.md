@@ -36,7 +36,7 @@ The RPTools contributors are currently in the process of adding audio streaming 
 
 Excited about the new functionality? Let’s discuss in the comments below or on one of our many social outlets.
 
-<!-- TODO Mid-page, colourful social media links -->
+{% include social-outlets.html %}
 
 You can download available versions of MapTool from [GitHub](https://github.com/RPTools/maptool/releases/latest).
 

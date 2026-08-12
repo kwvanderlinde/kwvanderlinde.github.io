@@ -28,7 +28,7 @@ You can download the RPTools’ Products from our [Download](/toolbox) page or o
 
 Excited about the new functionality? Let’s discuss in the comments below or on one of our many social outlets.
 
-<!-- TODO Mid-page, colourful social media links -->
+{% include social-outlets.html %}
 
 You can download available versions of MapTool from [GitHub](https://github.com/RPTools/maptool/releases/latest).
 
@@ -39,4 +39,3 @@ A JAR file version may be downloaded as well but is only recommended for develop
 Mac Users are encouraged to use the PKG version of the install. Windows users are encouraged to use the MSI.
 
 If you need interactive help, please join our [Discord Server]({{ site.data.links.discord | escape }}). Or visit our [wiki](https://wiki.rptools.info/) for complete walk-throughs of how to use the tool. Our *Community* page has more links; see the toolbar at the top of the page.
-
