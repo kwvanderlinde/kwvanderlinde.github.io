@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Draw Explorer: Vision Blocking Layer"
-author: bard
+author: jagged
 icon: /assets/img/map4.webp
 slug: draw-explorer-vision-blocking-layer
 ---
