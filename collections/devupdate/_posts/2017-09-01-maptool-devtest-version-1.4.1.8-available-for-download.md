@@ -6,7 +6,7 @@ icon: /assets/img/DevTestBuild.webp
 slug: maptool-devtest-version-1-4-1-8-available-for-download
 ---
 
-MapTool 1.4.1.8 is available for download from [rptools.net](/toolbox/maptool) by clicking on the Download link in the top toolbar.
+MapTool 1.4.1.8 is available for download from [rptools.net](/toolbox/maptool/) by clicking on the Download link in the top toolbar.
 
 The commit log is available via the GitHub page but many of the changes were related to the build system and automation; I’ve tried to separate them in the spoiler area, below, but no guarantees. (MapTool 1.4.1.7 was released Jul 2nd, 2016 so commit entries prior to that apply to the previous build.)
 

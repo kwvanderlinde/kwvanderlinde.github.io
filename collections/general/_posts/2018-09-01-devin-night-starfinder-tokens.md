@@ -24,7 +24,7 @@ Devin Night has gamed since the early 80’s and is a long-time supporter of RPT
 <img src="/assets/img/devin-night/M_Android_Merc_lo.webp">
 <img src="/assets/img/devin-night/M_Human_Soldier_lo.webp">
 
-These new tokens are available for download now in MapTool. To get MapTool [Download](/toolbox/maptool) from this site or see our [DriveThruRPG publisher’s page](https://www.drivethrurpg.com/browse/pub/12049/RPTools?affiliate_id=1002608). Once you have MapTool up and running, go to File->Add Resource to Library
+These new tokens are available for download now in MapTool. To get MapTool [Download](/toolbox/maptool/) from this site or see our [DriveThruRPG publisher’s page](https://www.drivethrurpg.com/browse/pub/12049/RPTools?affiliate_id=1002608). Once you have MapTool up and running, go to File->Add Resource to Library
 
 <img class="post-example" src="/assets/img/AddResource-150x150.png">
 
