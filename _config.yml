@@ -98,6 +98,6 @@ collections:
     order:
       - maptool.html
       - token-tool.html
-      - character-tool.html
-      - dice-tool.html
-      - initiative-tool.html
+      - initiative-tool.md
+      - character-tool.md
+      - dice-tool.md
