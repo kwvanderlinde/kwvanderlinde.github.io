@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Possible short-term outage
+tags: announcements
 author: azhrei
 slug: possible-short-term-outage
 ---
