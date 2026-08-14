@@ -11,7 +11,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.4.0"
 gem "jekyll-remote-theme", "~> 0.4.3"
 gem "jekyll-seo-tag", "~> 2.8.0"
-gem "jekyll-paginate-v2"
+gem "jekyll-paginate"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.0"
