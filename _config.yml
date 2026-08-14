@@ -33,10 +33,11 @@ remote_theme: "jekyll/minima@bf9ef98"
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
-paginate: 5
-paginate_path: "/dev-blog/page/:num/"
+pagination:
+  # Site-wide kill switch, disabled here it doesn't run at all
+  enabled: true
 
 sass:
   quiet_deps: true
