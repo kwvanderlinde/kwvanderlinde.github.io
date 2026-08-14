@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Art Packs in Library
-tags: artwork
+tags: artwork maptool
 author: phergus
 slug: new-art-packs-in-library
 ---

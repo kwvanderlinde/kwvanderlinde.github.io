@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pathfinding VBL and Terrain"
-tags: feature mapping terrain vbl
+tags: feature mapping terrain vbl maptool
 author: bard
 icon: /assets/img/AI.webp
 slug: pathfinding-vbl-and-terrain

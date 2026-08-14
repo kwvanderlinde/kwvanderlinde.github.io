@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MapTool 1.9.3 Released
+tags: maptool
 author: bard
 icon: /assets/img/SwatBug.webp
 slug: maptool-1-9-3-released

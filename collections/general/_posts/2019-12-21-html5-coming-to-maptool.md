@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HTML5 Coming to MapTool
-tags: html
+tags: html maptool
 author: bard
 icon: /assets/img/html5.webp
 slug: html5-coming-to-maptool

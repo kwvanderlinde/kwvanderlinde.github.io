@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Object Embedded VBL"
-tags: feature vision
+tags: feature vision maptool
 author: bard
 slug: object-embedded-vbl
 ---

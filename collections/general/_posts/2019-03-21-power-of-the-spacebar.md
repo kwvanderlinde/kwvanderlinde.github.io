@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Power of the Spacebar"
-tags: feature
+tags: feature maptool
 author: bard
 icon: /assets/img/GMCenterZoom.webp
 slug: power-of-the-spacebar

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MapTool Dev/Test Version 1.5 Available for Download"
-tags: announcements
+tags: announcements maptool
 author: bard
 icon: /assets/img/DevTestBuild.webp
 slug: maptool-dev-test-version-1-5-available-for-download

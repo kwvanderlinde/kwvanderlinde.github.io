@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Maptool release 1.12.0 BETA-1
-tags: devtest
+tags: devtest maptool
 author: oronir
 icon: /assets/img/logos/RPTools_Map_Logo_512.png
 slug: maptool-release-1-12-0-beta-1

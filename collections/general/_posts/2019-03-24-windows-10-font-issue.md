@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Windows 10 Font Issue"
-tags: bug
+tags: bug maptool
 author: bard
 icon: /assets/img/SwatBug.webp
 slug: windows-10-font-issue

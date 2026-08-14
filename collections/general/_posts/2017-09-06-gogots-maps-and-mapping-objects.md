@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gogots Maps and Mapping Objects"
-tags: mapping maps
+tags: mapping maps maptool
 author: bard
 slug: gogots-maps-and-mapping-objects
 ---
