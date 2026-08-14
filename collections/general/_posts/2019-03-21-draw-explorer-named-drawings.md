@@ -5,11 +5,14 @@ tags: feature drawing mapping maptool
 author: jagged
 icon: /assets/img/1DrawingExplorerRename.webp
 slug: draw-explorer-named-drawings
+excerpt_separator: "<!--more-->"
 ---
 
 <img class="float-right" src="/assets/img/DrawingsNamed.webp" alt="DrawingsNamed" width="300">
 
 With the release of Maptool 1.5 comes a much-requested feature to the Draw Explorer. You can _**name**_ drawings or groups of drawings via the Draw Explorer interface. This might not sound like much, but it greatly helps you navigate your way those around large, complex maps.
+
+<!--more-->
 
 Being able to name drawings opens up functions that previously only applied to images. So now, with the aid of the [Maptool script language](https://wiki.rptools.info/index.php/Category:Draw_Function), you could hunt for all drawings with a specific name and move them to a different layer on the map, and in doing so perhaps hide them from player view.
 

@@ -5,6 +5,7 @@ tags: drivethrurpg maptool
 author: bard
 icon: /assets/img/driveThruRPG.webp
 slug: maptool-available-on-drivethrurpg
+excerpt_separator: "<!--more-->"
 ---
 
 <a href="https://www.drivethrurpg.com/browse.php?affiliate_id=1002608" class="float-right">
@@ -12,6 +13,8 @@ slug: maptool-available-on-drivethrurpg
 </a>
 
 We’re experimenting with a new distribution method by allowing users the ability to download MapTool from [DriveThruRPG](https://www.drivethrurpg.com/index.php?affiliate_id=1002608) for free with an optional donation. This is in addition to our traditional [Download Page](/toolbox/) – not a replacement for it. Opening the DriveThruRPG channel does a few things for us.
+
+<!--more-->
 
 1. It takes some of the burdens off the RPTools.net server. Part of the expense of running an open source project is the ISP cost associated with the forums, this website, and the download traffic of the various tools. We’ve been warned a few times we’re approaching our current hosting limit so seeking another download method seems reasonable.
 2. The RPTools staff currently pay all expenses associated with RPTools. While we don’t mind, some community members have asked if they could help. Rather than place a donate button on the website or run an in-fashion Kickstarter or gofundme campaign, we decided to enable a ‘pay what you want’ on DriveThru. It’s an easy way to let you contribute to the project if you so choose.

@@ -5,11 +5,14 @@ tags: feature drawing maptool
 author: jagged
 icon: /assets/img/logos/RPTools_Map_Logo_512.png
 slug: draw-explorer-merging
+excerpt_separator: "<!--more-->"
 ---
 
 <img class="float-right" src="/assets/img/draw-explorer-merge4.webp" alt="merge4" width="150" height="150">
 
 With the release of Maptool 1.4.2, you will have the ability to merge different drawn elements of your map together. You can try this functionality in the [Dev/Test Build of MapTool](/2016/05/maptool-devtest-version-1-4-1-2/) now but we don’t recommend using Dev/Test for your gaming sessions unless you’re the adventurous sort. If you’re unfamiliar with the Draw Explorer, we detailed its initial functionality in a [previous post](/2016/05/new-functionality-draw-explorer/).
+
+<!--more-->
 
 Merge Drawing is somewhat like Group Drawings where you can work with a series of individual elements as one but the true power comes when working with transparencies. When using a non-100% transparency setting for overlapping drawings, the opacities will add, causing the transparency to be more opaque. The effect: overlapping shapes spoil the transparency effect. To correct this, you can now merge drawings into a single object.
 

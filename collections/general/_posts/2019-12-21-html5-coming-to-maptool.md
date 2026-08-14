@@ -5,11 +5,14 @@ tags: html maptool
 author: bard
 icon: /assets/img/html5.webp
 slug: html5-coming-to-maptool
+excerpt_separator: "<!--more-->"
 ---
 
 <img class="float-right" src="/assets/img/html5.webp" alt="html5" width="225">
 
 The MapTool elves have been busy this holiday season. They’ve introduced two new macro functions to produce HTML5 dialogs and frames. The new macro functions frame5() and dialog5() can be used in place of the HTML3 [frame()](http://lmwcs.com/rptools/wiki/frame_(roll_option)) and [dialog()](http://lmwcs.com/rptools/wiki/dialog_(roll_option)) macro functions.
+
+<!--more-->
 
 The new functionality allows the use of CSS3 and Javascript within the HTML frame/dialog so your formatting options now include those available to modern web applications. It has the limitation of not being able to access external assets.
 

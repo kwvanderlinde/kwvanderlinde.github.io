@@ -5,11 +5,14 @@ tags: announcements
 author: bard
 icon: /assets/img/Goodbye.webp
 slug: we-bid-farewell-to-az-jagged-and-jamz
+excerpt_separator: "<!--more-->"
 ---
 
 <img class="float-left" src="/assets/img/Goodbye.webp" alt="Goodbye" width="251">
 
 It is with a heavy heart that we inform our beloved community that two of our most prolific contributors are moving on to their next adventure.
+
+<!--more-->
 
 Az and Jamz were approached by Roll20 with an offer they couldn’t refuse. They will be merging much of the current functionality of MapTool and TokenTool into a new mobile application to be released later this year. Unfortunately, due to their Non-Compete Agreement with Roll20, they will be unable to contribute to RPTools products. We wish them the very best going forward. Thank you for all the time and effort you put into MapTool and TokenTool. You will be missed.
 

@@ -7,8 +7,6 @@ icon: /assets/img/DevTestBuild.webp
 slug: maptool-dev-test-version-1-5-available-for-download
 ---
 
-<!-- TODO Most of the linked posts do not exist yet. -->
-
 The RPTools team is proud to announce the release of MapTool 1.5 which includes a number of new features to make your in-game RPG experience better from campaign design to game night. The [Github changelog](https://github.com/RPTools/maptool/blob/master/CHANGE_LOG.md) contains a complete list of changes.
 
 This release merges the JamzTheMan’s [Nerps](https://maptool.nerps.net/) branch into the main RPTools branch bringing with it [Hero Lab and PDF integration](/2019/03/new-resource-library-file-type-support-por-and-pdf/). Also included is a new [Macro editor](/2019/03/new-macro-editor/) with syntax highlighting and code completion, [terrain modifiers](/2019/03/pathfinding-vbl-and-terrain/), [Draw Explorer](/2019/03/draw-explorer-vision-blocking-layer/) enhancements, a new Whisper function from the connections window, and many, many more.

@@ -5,11 +5,14 @@ tags: feature drawing maptool
 author: bard
 icon: /assets/img/logos/RPTools_Map_Logo_512.png
 slug: draw-explorer-getset-properties
+excerpt_separator: "<!--more-->"
 ---
 
 <img class="float-right" src="/assets/img/draw-explorer-6.webp" alt="6" width="150" height="150">
 
 With the release of Maptool 1.4.2 you will have the ability to get a drawing’s properties and apply those to another drawing. You can try this functionality in the [Dev/Test Build of MapTool](/2016/05/maptool-devtest-version-1-4-1-2/) now but we don’t recommend using Dev/Test for your gaming sessions unless you’re the adventurous sort.
+
+<!--more-->
 
 Drawing properties are the selections you make in the Drawing dialog shown to the right. The power of this functionality comes into play when you want to redo a map with a new texture, border, or transparency. You’ll be able to update your drawing rather than redraw with new settings. It should be a great time saver for users who draw their maps rather than import them.
 

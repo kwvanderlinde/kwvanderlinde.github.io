@@ -5,11 +5,14 @@ tags: announcements devtest maptool
 author: bard
 icon: /assets/img/DevTestBuild.webp
 slug: maptool-devtest-version-1-4-1-2
+excerpt_separator: "<!--more-->"
 ---
 
 <img class="float-right" src="/assets/img/Apocalipstix03.webp" alt="BlowedUp">
 
 Warning: This Build Could Blow Up!
+
+<!--more-->
 
 Now that’s out of the way, going forward the numbering of builds will indicate the type of build, with
 

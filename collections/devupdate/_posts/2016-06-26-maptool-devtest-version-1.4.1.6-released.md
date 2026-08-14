@@ -5,11 +5,14 @@ tags: devtest maptool
 author: bard
 icon: /assets/img/LauncherWindow-1.4.1.6.webp
 slug: maptool-devtest-version-1-4-1-6-released
+excerpt_separator: "<!--more-->"
 ---
 
 <img class="post-example" src="/assets/img/LauncherWindow-1.4.1.6.webp" alt="LauncherWindow">
 
 The last (hopefully) Dev/Test version in the 1.4.1 series is now available for download from <http://maptool.craigs-stuff.net/test-builds/>. The 1.4.1 series saw a large number of major changes which will now be rolled into the forthcoming 1.4.2 production release. We’ll only release a 1.4.1.7 if more testing is required.
+
+<!--more-->
 
 As with all Dev/Test builds, be sure to backup your campaign before using this for a game. We do ask that you run at least a trail game with this version if you can. That way it will hit the streets as well tested as possible.
 

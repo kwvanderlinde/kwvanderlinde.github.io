@@ -5,11 +5,14 @@ tags: community maptool
 author: bard
 icon: /assets/img/logos/crowdin-dark-symbol.webp
 slug: crowdin-for-maptool-internationalization
+excerpt_separator: "<!--more-->"
 ---
 
 <img class="float-left" src="/assets/img/logos/crowdin-dark-symbol.webp" alt="crowdin-dark-symbol" width="123">
 
 RPTools products are used worldwide and support 11 languages as of this writing. We’ve always relied on volunteers to provide translations for the menus, tooltips, and labels in MapTool and TokenTool. We’ve now made it easier to contribute by leveraging [crowdin](https://crowdin.com/), a third-party translation site.
+
+<!--more-->
 
 Crowdin allows users to add new or edit existing language files for the MapTool user interface. You will need to create an account on crowdin or log in with an existing Facebook, Google, Twitter, GitHub or GitLab account. Once you have an account, go to the [MapTool project](https://crowdin.com/project/maptool) to view the current languages and the progress in translating them.
 

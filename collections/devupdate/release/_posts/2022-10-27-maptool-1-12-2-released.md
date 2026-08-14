@@ -5,6 +5,7 @@ tags: maptool release
 author: oronir
 icon: /assets/img/logos/RPTools_Map_Logo_512.png
 slug: maptool-1-12-2-released
+excerpt_separator: "<!--more-->"
 ---
 
 ## Highlights
@@ -18,6 +19,8 @@ slug: maptool-1-12-2-released
 - [#3700](https://github.com/RPTools/maptool/issues/3700) Macro function `removeTokenFacing()` was throwing NPE. Fixed.
 - [#3689](https://github.com/RPTools/maptool/issues/3689) Soft FoW opacity was ignored when no sight was present. Fixed.
 - [#3688](https://github.com/RPTools/maptool/issues/3688) Soft FoW was rendered even when Sight is off. Fixed.
+
+<!--more-->
 
 ## Full Change log?
 

@@ -5,11 +5,14 @@ tags: community
 author: bard
 icon: /assets/img/img_1903.webp
 slug: adding-new-languages-to-maptool
+excerpt_separator: "<!--more-->"
 ---
 
 <img class="post-example" src="/assets/img/img_1903.webp" alt="img_1903">
 
 RPTools is an international community. We see this on the social sites as well as in our developer group. There are also several native language support sites. Translating the text in MapTool is one of the many ways we support each other.
+
+<!--more-->
 
 To date, we have translations for German, Spanish, French, Italian, Japanese, Polish, Russian and Chinese. The language files are located in the GitHub Repository [resources directory](https://github.com/RPTools/maptool/tree/master/src/main/resources/net/rptools/maptool/language) if you care to view them.
 
