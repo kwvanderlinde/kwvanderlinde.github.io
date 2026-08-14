@@ -11,11 +11,10 @@ title: Dev Blog
   {% endif %}
 
   {%- if posts.size > 0 -%}
-    <h2 class="post-list-heading">Latest posts</h2>
     <ul class="post-list">
-				{%- for post in posts -%}
-				{%- include listed-post.html post=post -%}
-				{%- endfor -%}
+        {%- for post in posts -%}
+        {%- include listed-post.html post=post -%}
+        {%- endfor -%}
     </ul>
 
     {% if site.paginate %}
@@ -23,8 +22,8 @@ title: Dev Blog
         <ul class="pagination">
         {%- if paginator.previous_page %}
           <li>
-            <a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page" title="Go to Page {{ paginator.previous_page }}">
-              {{ paginator.previous_page }}
+              <a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page" title="Go to Page {{ paginator.previous_page }}">
+                  <i class="fa-solid fa-angle-left"></i>
             </a>
           </li>
         {%- else %}
@@ -34,7 +33,7 @@ title: Dev Blog
         {%- if paginator.next_page %}
           <li>
             <a href="{{ paginator.next_page_path | relative_url }}" class="next-page" title="Go to Page {{ paginator.next_page }}">
-              {{ paginator.next_page }}
+                  <i class="fa-solid fa-angle-right"></i>
             </a>
           </li>
         {%- else %}

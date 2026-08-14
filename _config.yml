@@ -35,7 +35,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-paginate: 5
+paginate: 10
 paginate_path: "/dev-blog/page/:num/"
 
 sass:
