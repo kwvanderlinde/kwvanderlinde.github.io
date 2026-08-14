@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Need Help? Discord Has Answers
+tags: social support
 author: bard
 icon: /assets/img/logos/Discord-Symbol-Blurple.svg
 slug: need-help-discord-has-answers

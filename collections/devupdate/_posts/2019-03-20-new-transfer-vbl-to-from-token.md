@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New Transfer VBL to/from Token"
+tags: feature tokens vbl
 author: bard
 icon: /assets/img/TokenVBLColumn-X.webp
 slug: new-transfer-vbl-to-from-token

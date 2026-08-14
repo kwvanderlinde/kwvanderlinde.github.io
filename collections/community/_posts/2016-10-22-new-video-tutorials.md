@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New Video Tutorials"
+tags: tutorial
 author: bard
 slug: new-video-tutorials
 ---

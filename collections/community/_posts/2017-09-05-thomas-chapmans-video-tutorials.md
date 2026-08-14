@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Thomas Chapman’s Video Tutorials"
+tags: tutorial
 author: bard
 slug: thomas-chapmans-video-tutorials
 ---

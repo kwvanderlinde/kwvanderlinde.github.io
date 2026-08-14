@@ -1,6 +1,7 @@
 ---
 layout: post
 title: GitHub Basics
+tags: github
 author: bard
 icon: /assets/img/logos/GitHub_Invertocat_Black.svg
 slug: github-basics

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Devin Night’s New Token Packs"
-tags: artwork
+tags: artwork tokens tutorial
 author: bard
 slug: devin-nights-new-token-packs
 ---

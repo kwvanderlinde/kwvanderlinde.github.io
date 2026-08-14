@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Playing Sound in MapTool via Syrinscape
+tags: feature sound syrinscape
 author: bard
 icon: /assets/img/SyrinScape-2.webp
 slug: playing-sound-in-maptool-via-syrinscape

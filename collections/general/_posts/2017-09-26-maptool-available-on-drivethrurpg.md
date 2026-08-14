@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "MapTool Available on DriveThruRPG"
+tags: drivethrurpg
 author: bard
 icon: /assets/img/driveThruRPG.webp
 slug: maptool-available-on-drivethrurpg

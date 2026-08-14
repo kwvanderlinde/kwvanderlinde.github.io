@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New Feature: Token VBL"
+tags: feature vision
 author: bard
 icon: /assets/img/TokenVBL2.webp
 slug: new-feature-token-vbl

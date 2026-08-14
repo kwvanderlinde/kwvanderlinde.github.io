@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Draw Explorer: Merging"
+tags: feature drawing
 author: jagged
 icon: /assets/img/logos/RPTools_Map_Logo_512.png
 slug: draw-explorer-merging

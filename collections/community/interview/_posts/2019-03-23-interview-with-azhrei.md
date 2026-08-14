@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blast from the Past: Interview with Azhrei"
-tags: blast-from-the-past
+tags: blast-from-the-past interview
 author: bard
 icon: /assets/img/post-icons/Az.webp
 slug: blast-from-the-past-interview-with-azhrei

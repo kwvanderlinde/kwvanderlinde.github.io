@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New Macro Editor"
+tags: feature macros
 author: bard
 icon: /assets/img/CodeCompletion-1.webp
 slug: new-macro-editor

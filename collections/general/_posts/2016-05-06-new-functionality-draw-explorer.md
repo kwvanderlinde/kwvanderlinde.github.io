@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New Functionality: Draw Explorer"
+tags: feature drawing
 author: bard
 icon: /assets/img/draw-explorer.webp
 slug: new-functionality-draw-explorer

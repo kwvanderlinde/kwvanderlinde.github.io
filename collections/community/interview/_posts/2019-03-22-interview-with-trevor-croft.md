@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blast from the Past: Interview with Trevor Croft"
-tags: blast-from-the-past
+tags: blast-from-the-past interview
 author: bard
 icon: /assets/img/post-icons/Trevor.webp
 slug: blast-from-the-past-interview-with-trevor-croft

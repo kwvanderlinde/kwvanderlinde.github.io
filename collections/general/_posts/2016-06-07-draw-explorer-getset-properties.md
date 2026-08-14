@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Draw Explorer: Get/Set Properties"
+tags: feature drawing
 author: bard
 icon: /assets/img/logos/RPTools_Map_Logo_512.png
 slug: draw-explorer-getset-properties

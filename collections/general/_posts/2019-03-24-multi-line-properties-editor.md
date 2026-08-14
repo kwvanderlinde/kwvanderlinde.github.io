@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Multi-line Properties Editor"
+tags: feature
 author: bard
 icon: /assets/img/logos/RPTools_Map_Logo_512.png
 slug: multi-line-properties-editor

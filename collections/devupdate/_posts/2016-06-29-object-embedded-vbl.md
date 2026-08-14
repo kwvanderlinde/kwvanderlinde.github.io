@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Object Embedded VBL"
+tags: feature vision
 author: bard
 slug: object-embedded-vbl
 ---
