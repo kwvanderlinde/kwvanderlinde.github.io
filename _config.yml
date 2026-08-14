@@ -33,8 +33,10 @@ remote_theme: "jekyll/minima@bf9ef98"
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
+  - jekyll-paginate
 
-# paginate: 5
+paginate: 5
+paginate_path: "/dev-blog/page/:num/"
 
 sass:
   quiet_deps: true
@@ -42,7 +44,7 @@ minima:
   show_excerpts: true
   nav_pages:
     - index.html
-    - pages/dev-blog.html
+    - dev-blog/index.html  # Fragile: This relies on the first page coming first in site.pages
     - pages/toolbox.html
     - pages/community.html
     - pages/tutorials.html
