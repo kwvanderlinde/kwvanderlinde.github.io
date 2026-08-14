@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "MapTool 1.9 Beta 2 Available to Test"
+tags: devtest
 author: bard
 icon: /assets/img/DevTestBuild.webp
 slug: maptool-1-9-beta-2-available-to-test

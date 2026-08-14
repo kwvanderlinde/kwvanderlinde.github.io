@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Crowdin for MapTool Internationalization
+tags: community
 author: bard
 icon: /assets/img/logos/crowdin-dark-symbol.webp
 slug: crowdin-for-maptool-internationalization

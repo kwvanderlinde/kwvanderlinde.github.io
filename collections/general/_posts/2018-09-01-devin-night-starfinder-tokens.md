@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Devin Night Starfinder Tokens"
+tags: artwork
 author: bard
 icon: /assets/img/devin-night/M_Alien_Priest_lo.webp
 slug: devin-night-starfinder-tokens

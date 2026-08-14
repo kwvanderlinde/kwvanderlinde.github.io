@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New Art Packs in Library
+tags: artwork
 author: phergus
 slug: new-art-packs-in-library
 ---

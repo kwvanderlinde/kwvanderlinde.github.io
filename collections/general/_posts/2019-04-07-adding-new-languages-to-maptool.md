@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Adding New Languages to MapTool
+tags: community
 author: bard
 icon: /assets/img/img_1903.webp
 slug: adding-new-languages-to-maptool

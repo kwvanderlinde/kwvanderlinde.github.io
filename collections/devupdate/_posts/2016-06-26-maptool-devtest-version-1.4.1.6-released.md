@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "MapTool Dev/Test Version 1.4.1.6 Released"
+tags: devtest
 author: bard
 icon: /assets/img/LauncherWindow-1.4.1.6.webp
 slug: maptool-devtest-version-1-4-1-6-released
