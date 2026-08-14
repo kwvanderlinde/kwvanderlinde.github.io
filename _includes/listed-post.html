@@ -1,7 +1,9 @@
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 <li class="post-list__item">
 		{%- if post.icon -%}
-		<img class="post-list__item-icon" src="{{ post.icon | escape }}">
+		<div class="post-list__item-icon">
+				<img src="{{ post.icon | escape }}">
+		</div>
 		{%- endif -%}
 		<div class="post-list__item-summary article-preview">
 				<div class="article-preview__title">

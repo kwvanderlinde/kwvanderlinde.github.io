@@ -319,7 +319,7 @@ figure figcaption {
 .post-list {
   display: grid;
   grid-template-columns: 5em 1fr;
-  grid-auto-rows: minmax(5em, auto);  /* Make it at least the same as the icon cell width. */
+  grid-auto-rows: 5em;  /* The same as the icon cell width, so the icon space is square. */
   grid-gap: 2em 2ch;
 }
 .post-list__item {
@@ -327,8 +327,12 @@ figure figcaption {
 }
 .post-list__item-icon {
   grid-column: 1;
-  place-self: start stretch;
-  margin: 0.5em;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }
 .post-list__item-summary {
   grid-column: 2;
